@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Background Generator</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="subDisplay">
+
+        <div id="mainDisplay" class="">
+            <div id="toggleDashboard"><span id="toggleBtn"></span></div>
+            <h1>css Gradient Generator</h1>
+
+                <div class="GradTypeContainer">
+                    <p>Select the type of gradient:</p>
+                    <select name="" id="graidentType">
+                        <option value="linear-gradient">Linear</option>
+                        <option value="radial-gradient">circle</option>
+                    </select>
+                </div>
+
+            <div id="inputs">
+                <p>Select Colors:</p>
+                <input type="color" id="firstColor" class="colorInput" value="#237afe">
+                <input type="color" id="secondColor" class="colorInput" value="#7daeff">
+                <input type="color" id="thirdColor" class="colorInput" value="#91d0ff">
+
+                <button id="mainGenerator">Generate</button>
+            </div>
+
+            <div class="randomGeneField">
+                <p>Generate a random background</p>
+                <button id="randomGenerator">Generate</button>
+            </div>
+            <h3 id="generatedValue"></h3>
+        </div>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

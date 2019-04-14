@@ -1,0 +1,38 @@
+Goal:
+Making a gradient generator
+It has both options of picking colors & generating random values
+it displays the CSS rule of the gradient inside a heading
+
+my extras:
+control opacity
+control direction of the gradient
+
+plan and steps:
+
+1- getting two colors inputs
+2- make a function that generate random colors on click
+3- dynamically change the background as user selects
+4- show value in a heading
+
+Off to work:
+
+1st- Making HTML (Done)
+2nd- adding minimal CSS in particular the GRADIENT for sub and main display
+
+CSS GRADIENT SYNTAX:
+It goes in the background property not background color
+first we state type of gradient: linear/radial gradient
+after it within parenthesis we can add the degree or angle of the graident, or specify its direction.
+then we add the colors and spereate them with a comma
+notes:
+when we pick radial we place "circle" instead of the angle or the direction
+we spereate between the colors and direction with comma too
+after adding the colors we can add a percentage to indecate where the color start
+The gradient can take more than two inputs
+
+background: rgb(170,183,224);
+background: linear-gradient(90deg, rgba(170,183,224,1) 0%, rgba(174,67,244,1) 52%, rgba(186,91,78,1) 100%);
+
+3- Start with JS:
+A) Target and grab the needed elements.
+B) Make the normal gradient function
